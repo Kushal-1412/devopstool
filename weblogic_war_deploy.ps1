@@ -16,6 +16,6 @@ java -cp "D:\Weblogic\Installation\wlserver\server\lib\weblogic.jar" weblogic.De
  -password $password `
  -deploy $appPath `
  -targets $target `
- -name sample
+ -name devopstool
 
 Write-Host "Application Deployed successfully."
